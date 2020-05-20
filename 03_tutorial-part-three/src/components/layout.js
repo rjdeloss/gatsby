@@ -21,6 +21,9 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
+          <footer>
+              <h3>This is my site</h3>
+      </footer>
     </div>
   )
 }
